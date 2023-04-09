@@ -13,7 +13,7 @@ print(f"Calculadora iniciada! E aí {nome}, vamos começar?")
 continua = "s"
 while (continua == "s"):
     num1 = float(input("Digite o primeiro número: "))
-    op = input("Digite o operador (+, +, *, /): ")
+    op = input("Digite o operador (+, -, *, /): ")
     num2 = float(input("Digite o segundo número: "))
 
     if (op == "+"):
